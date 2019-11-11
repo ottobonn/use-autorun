@@ -1,4 +1,4 @@
-import {useState, useEffect, useRef} from 'react'
+const {useState, useEffect, useRef} = require('react');
 
 function useAutorun(f) {
   const [result, setResult] = useState(undefined);
@@ -17,4 +17,4 @@ function useAutorun(f) {
   return result;
 }
 
-export {useAutorun};
+module.exports = {useAutorun};
