@@ -1,6 +1,6 @@
 {
   "name": "use-autorun",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React hook for Meteor's Tracker.autorun",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Travis Geis <ottobonn28@gmail.com> (travisgeis.com)",
   "license": "MIT",
   "dependencies": {
+    "ejson": "^2.2.0",
     "react": "^16.8.0"
   }
 }

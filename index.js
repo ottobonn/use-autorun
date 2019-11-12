@@ -1,3 +1,4 @@
+const EJSON = require('ejson');
 const {useState, useEffect, useRef} = require('react');
 
 function useAutorun(f) {
